@@ -18,5 +18,5 @@ $ composer install
 
 ## About
 
-**[Whatsapp](http://bit.ly/fahriwa)**
-**[Instagram @fahriztx_](https://instagram.com/fahriztx_)**
+- ![Whatsapp](https://whatsappbrand.com/wp-content/themes/whatsapp-brc/favicon-32x32.png) **[Whatsapp](http://bit.ly/fahriwa)**
+- ![Instagram](https://z-p3.www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico) **[Instagram @fahriztx_](https://instagram.com/fahriztx_)**
