@@ -1,6 +1,6 @@
 # CustomCodeigniter
 
-Custom Codeigniter with Laravel Blade, Illuminate Database, PHP Dot ENV and PHP Encryption.
+Custom Codeigniter with Laravel Blade, Illuminate Database, Custom RestAPI, PHP Dot ENV and PHP Encryption.
 
 ## Requirement
 
