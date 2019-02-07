@@ -6,7 +6,7 @@ use Defuse\Crypto\Crypto as DefuseCrypto;
 
 use Defuse\Crypto\KeyProtectedByPassword as DefusePassword;
 
-class DefuseLib  {
+class Defuselib  {
 
 	const bytes 	= '80bef0124333e514677752767d69fc8a';
 	const path 		= '../generate-key.txt';

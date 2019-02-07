@@ -8,8 +8,7 @@
 		"philo/laravel-blade": "3.1",
 		"illuminate/database": "^5.2",
 		"illuminate/events": "5.2",
-		"defuse/php-encryption" : "2.0.3",
-		"fabpot/goutte" : "*"
+		"defuse/php-encryption" : "2.0.3"
 	},
 	"autoload": {
         "classmap": [

@@ -5,7 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter X Laravel!</title>
-	<script type="text/javascript" src="http://www.trevi.zo/panel_assets/js/core/libraries/jquery.min.js"></script>
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -65,8 +64,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 	</style>
 	<data style="display: none;">
-		<string name="app_name">CodeIgniter X Laravel</string>
-		<string name="app_version">{{ CI_VERSION }}</string>
+		<string data-name="appname">CodeIgniter X Laravel</string>
+		<string data-name="appversion">{{ CI_VERSION }}</string>
 	</data>
 </head>
 <body>
@@ -84,16 +83,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<p class="footer">Best Regrads, <strong>Xeon Team</strong>.{!! (ENVIRONMENT === 'development') ?  ' Use CodeIgniter Version <strong><appversion></appversion></strong>' : '' !!}</p>
 </div>
-
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script type="text/javascript">
-	$("appname").html(get('string','app_name'));
-	$("appversion").html(get('string','app_version'));
-
-	function get(tag,name){
-		if(tag=="string"){
-			return $(tag+"[name="+name+"]").text();
-		}
-	}
+    $("string").each(function(i,a){
+        $($(a).data('name')).html($(a).html());
+    });
 </script>
 </body>
 </html>
