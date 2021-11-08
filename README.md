@@ -17,8 +17,3 @@ $ mv .env.example .env
 $ composer install
 ```
 edit `.env` file to change the database config and website config `BASE_URL`.
-
-## About
-
-- ![Whatsapp](https://whatsappbrand.com/wp-content/themes/whatsapp-brc/favicon-32x32.png) **[Whatsapp](http://bit.ly/fahriwa)**
-- ![Instagram](https://z-p3.www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico) **[Instagram @fahriztx_](https://instagram.com/fahriztx_)**
